@@ -19,3 +19,11 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/scoreboard.git
 
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd scoreboard 
+   ```
+3. **Open the project**:
+
+Open the index.html file in your preferred web browser.
