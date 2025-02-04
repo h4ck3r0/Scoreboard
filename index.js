@@ -18,6 +18,15 @@ function add(increment,element){
         team2El.textContent = count2
     }
 }
+function sub(decrement,element){
+    if (element === "team1-el"){
+        count1 -= decrement
+        team1El.textContent = count1
+    } else {
+        count2 -= decrement
+        team2El.textContent = count2
+    }
+}
 
 function reset(element){
     if (element === "team1-el"){

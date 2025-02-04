@@ -1,8 +1,12 @@
 .buttons{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+}
+
+.reset{
+    text-align: center;
 }
 button{
+    
     border: 2px #9AABD8 dashed;
     border-radius: 5px;
     padding: 0.5rem;
