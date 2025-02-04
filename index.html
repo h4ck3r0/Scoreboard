@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @font-face {
+            font-family: 'abcd';
+            src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="team1">
+            <h2>Team 1</h2>
+            <h3  id="team1-el">0</h3>
+            <div class="buttons">
+                <button onclick="add(1,'team1-el')">+1</button>
+                <button onclick="add(2,'team1-el')">+2</button>
+                <button onclick="add(3,'team1-el')">+3</button>
+                <button onclick="reset('team1-el')">Reset</button>
+            </div>
+        </div>
+        <div class="team2">
+            <h2>Team 2</h2>
+            <h3 id="team2-el">0</h3>
+            <div class="buttons">
+                <button onclick="add(1,'team2-el')">+1</button>
+                <button onclick="add(2,'team2-el')">+2</button>
+                <button onclick="add(3,'team2-el')">+3</button>
+                <button onclick="reset('team2-el')">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: 2px #9AABD8 dashed;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color:#1B244A ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #9AABD8;
+    margin: 0.2rem;
+    }
+    
+button:hover {
+        background-color:#075985;
+
+    
+}
+.main{
+    border-radius: 1rem;
+    background-color: #1B244A;
+    padding: auto;
+}
+
+.team1{
+    
+    flex: 0.5;
+    padding: 2rem;
+    
+}
+.team2{
+    flex: 0.5;
+    padding: 2rem;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    border: 1px black solid;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background-color: #080001 ;
+    text-align: center;
+    color: #F94F6D;
+    font-family:abcd;
+    font-size: 3rem;
+}
+@media only screen and (min-width: 700px){
+    .main{
+        display: flex;
+        padding: 2rem;
+    } 
+}
